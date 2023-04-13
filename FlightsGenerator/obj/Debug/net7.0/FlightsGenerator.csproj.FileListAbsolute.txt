@@ -1,0 +1,15 @@
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\bin\Debug\net7.0\FlightsGenerator.exe
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\bin\Debug\net7.0\FlightsGenerator.deps.json
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\bin\Debug\net7.0\FlightsGenerator.runtimeconfig.json
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\bin\Debug\net7.0\FlightsGenerator.dll
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\bin\Debug\net7.0\FlightsGenerator.pdb
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.csproj.AssemblyReference.cache
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.AssemblyInfoInputs.cache
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.AssemblyInfo.cs
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.csproj.CoreCompileInputs.cache
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.dll
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\refint\FlightsGenerator.dll
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.pdb
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\FlightsGenerator.genruntimeconfig.cache
+C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\FlightsGenerator\obj\Debug\net7.0\ref\FlightsGenerator.dll

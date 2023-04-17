@@ -16,6 +16,16 @@ namespace AspUI.Repositories
             var flights = await _client.GetFromJsonAsync<List<FlightDto>>("api/Flights/flights");
             return flights != null ? flights : null!;
         }
+        public async Task<List<FlightDto>> GetDepartures()
+        {
+            var flights = await _client.GetFromJsonAsync<List<FlightDto>>("api/Flights/departures");
+            return flights != null ? flights : null!;
+        }
+        public async Task<List<FlightDto>> GetLandings()
+        {
+            var flights = await _client.GetFromJsonAsync<List<FlightDto>>("api/Flights/landings");
+            return flights != null ? flights : null!;
+        }
 
         public async Task<TerminalDto> GetFirstTerminal()
         {

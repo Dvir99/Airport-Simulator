@@ -19,17 +19,22 @@ namespace AspUI.Controllers
             _airportService = repos;
         }
 
-        public async Task<IActionResult> Index() 
+        public async Task<IActionResult> Landings() 
         {
-            var flights = await _airportService.GetFlights();
+            var flights = await _airportService.GetLandings();
             return View(flights);
         }
-        public async Task<IActionResult> Privacy()
+        public async Task<IActionResult> Departures()
+        {
+            var flights = await _airportService.GetDepartures();
+            return View(flights);
+        }
+        public async Task<IActionResult> Terminals()
         {
             var terminals = await _airportService.GetTerminals();
             ViewBag.Flights = _airportService.GetFlights();
             return View(terminals);
         }
-       
+
     }
 }

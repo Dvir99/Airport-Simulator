@@ -16,12 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\dvir2\OneDrive\שולחן העבודה\FinalProjectAirport\AspUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dvir2/OneDrive/שולחן העבודה/FinalProjectAirport/AspUI/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/dvir2/OneDrive/שולחן העבודה/FinalProjectAirport/AspUI/Views/Home/Departures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBhcnR1cmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dvir2/OneDrive/שולחן העבודה/FinalProjectAirport/AspUI/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/dvir2/OneDrive/שולחן העבודה/FinalProjectAirport/AspUI/Views/Home/Landings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMYW5kaW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/OneDrive/שולחן העבודה/FinalProjectAirport/AspUI/Views/Home/Terminals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtaW5hbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dvir2/OneDrive/שולחן העבודה/FinalProjectAirport/AspUI/Views/Shared/_ValidationScriptsPartial.cshtml]

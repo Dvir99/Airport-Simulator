@@ -39,5 +39,16 @@ namespace AirportAPI.Repositories
         {
             await data.SaveChangesAsync();
         }
+
+        public async Task<List<Flight>> GetDepartures()
+        {
+            return await data.Flights.Where(flight => flight.IsDeparture == true).ToListAsync();
+        }
+
+        public async Task<List<Flight>> GetLandings()
+        {
+            return await data.Flights.Where(flight => flight.IsDeparture == false).ToListAsync();
+
+        }
     }
 }

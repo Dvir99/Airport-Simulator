@@ -23,8 +23,13 @@ namespace AirportAPI.Controllers
             _logic = logic;
         }
         #region Http GET Calls
+
         [HttpGet("flights")]
         public async Task<List<Flight>> GetFlights() => await _repos.GetFlights();
+        [HttpGet("departures")]
+        public async Task<List<Flight>> GetDepartures() => await _repos.GetDepartures();
+        [HttpGet("landings")]
+        public async Task<List<Flight>> GetLandings() => await _repos.GetLandings();
 
         [HttpGet("terminal")]
         public async Task<Terminal> GetFirstTerminal() => await _repos.GetFirstTerminal();

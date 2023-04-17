@@ -1,0 +1,43 @@
+﻿@model List<FlightDto>
+@{
+    ViewData["Title"] = "Departures";
+}
+
+<h3 class="display-3 text-center">Departures:</h3>
+@{
+    if (Model.Count() == 0)
+    {
+        <h4 style="text-align:center;">No Flights Right Now</h4>
+    }
+    else
+    {
+        <div class="row justify-content-center align-content-center">
+            <table class="text-center mt-6">
+                <thead>
+                    <tr>
+                        <th class="border border-dark">Flight Id</th>
+                        <th class="border border-dark">Flight No.</th>
+                        <th class="border border-dark">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var flight in Model)
+                        {
+                            <tr>
+                                <td class="border border-dark">@flight.Id</td>
+                                <td class="border border-dark">@flight.Code</td>
+                                <td class="border border-dark">@flight.Status</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center">
+            <a class="btn btn-primary mt-3 text-center" asp-action="Departures">Refresh</a>
+        </div>
+    }
+}
+
+
